@@ -22,4 +22,11 @@ class RixongPalindromeTest < Minitest::Test
     assert "Madam, I’m Adam."
   end
   
+  def test_integer_palindrome
+    refute 13542
+  end
+  
+  def test_integer_palindrome
+    assert 13531
+  end
 end
