@@ -15,7 +15,7 @@ module RixongPalindrome
 
     # Returns content for palindrome testing.
     def processed_content
-      self.to_s.scan(/[a-z \d]/i).join.downcase
+      self.to_s.scan(/[a-z\d]/i).join.downcase
     end
 end
 
